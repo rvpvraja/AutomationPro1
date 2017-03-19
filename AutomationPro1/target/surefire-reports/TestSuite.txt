@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 44.977 sec <<< FAILURE! - in TestSuite
+login(com.vmetry.Pagetest.LoginPageTest)  Time elapsed: 21.418 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+null
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:38)
+	at com.vmetry.Pagetest.LoginPageTest.login(LoginPageTest.java:64)
+
